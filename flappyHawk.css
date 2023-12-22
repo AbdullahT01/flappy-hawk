@@ -1,0 +1,39 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f6f6f9;
+}
+
+.game-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#board {
+   
+    background-image: url(flappybirdbg.png);
+    /* Set fixed width and height for the canvas if needed */
+}
+
+
+.powers{
+    position: relative;
+    background: white;
+    bottom: 50px;
+    left: -30%;
+    width: 30vw;
+    height: 60vh;
+    border-radius: 20px;
+}
+
+.powers p{
+    padding: 15px;
+    font-weight: 550;
+}
